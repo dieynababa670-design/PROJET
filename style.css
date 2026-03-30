@@ -93,7 +93,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("flexbox/fond_triangle.png");
+    background-image: url("fond_triangle.png");
 }
 .A1 img{
     transform: scaleX(-1);
@@ -105,7 +105,7 @@
     gap: 20px;
 }
 .A1{
-    background-image: url("flexbox/fond_triangle.png");
+    background-image: url("fond_triangle.png");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,8 +175,8 @@
 }
 .sophie{
     display: flex;
-    gap: 100px;
-    justify-content: space-around;
+    gap:10px;
+    justify-content: center;
     align-items: center;
 
 }
@@ -184,22 +184,134 @@
     background-color: beige;
     padding: 40px;
     border-radius: 10px;
+    justify-content: space-between;
 
 }
 .awa h2{
-    background-color: #e96004;
+    color:orange;
     margin-bottom: 40px;
 
 }
 .malick h2{
-    margin-top: 20;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .mn{
     background-color: #e96004;
     display: flex;
-    flex-direction: 20px;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
+    margin-top:40px;
+    gap: 20px;
+    padding: 40px;
+}
+.mn div{
+    background-color: white;
+    width: 20%;
+    padding: 10px;
+    height: 100px;
+    margin-top: 20px;
+}.mn div h2{
+    background-color: #e96004;
+    width:30%;
+    margin-bottom: 4%;
+    text-align: center;   
+}
+.fonction{
+    margin-top: 30px;
+}
+
+.fonction h2{
+    margin-bottom: 30px;
+}
+/*  */
+.fonction .container{
+     display: flex;
+     justify-content: center;
+     gap: 3%;
+      background-color: gainsboro;
+}
+.container h2{
+    color: #e96004;
     margin-top: 20px;
 }
+.container p{
+    margin-top: 10%;
+    line-height: 40px;
+}
+.container p::first-letter{
+    color: white;
+    background-color: #e96004;
+}
+.hauteur h2{
+    margin-bottom: 10px;
+    gap: 40%;
+    
+}
+.mouhamed{
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 20%;
+    background:linear-gradient(to right, #ff761b,black) ;
+    color: white;
+
+}
+.forme h2{
+    margin-bottom: 20px;
+    gap: 40%;
+    margin-top: 40px;
+}
+.forme p{
+margin-top: 10px;
+gap: 10%;
+
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+}
+.balla{
+    display: flex;
+    justify-content: center;
+    gap:30px ;
+    align-items: center;
+    margin-top: 30px;
+}
+.khadija{
+    background-color: aliceblue;
+    
+}
+.sd{
+    background-color: #e96004;
+}
+.formation{
+    background-color: #e96004;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form{
+    display: flex;
+    gap: 10px;
+}
+.bem{
+    margin-top: 20px;
+    width: 40%;
+    background-color: black;
+    color: white;
+}
+.badou{
+    text-align: center;
+    background-color: #e96004;
+   
+}
+
+
 
